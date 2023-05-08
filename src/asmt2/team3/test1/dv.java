@@ -1,4 +1,4 @@
-package prakash.ram.model;
+package asmt2.team3.test1;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -27,9 +27,9 @@ import java.util.TimerTask;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import prakash.ram.client.Client;
-import prakash.ram.server.Server;
-import prakash.ram.utilies.TableBuilder;
+import asmt2.team3.client.Client;
+import asmt2.team3.server.Server;
+import asmt2.team3.utilies.TableBuilder;
 
 public class dv {
 	
@@ -53,7 +53,7 @@ public class dv {
 		
 		read = Selector.open();
 		write = Selector.open();
-		Server server = new Server(2000);
+		Server server = new Server(5000);
 		server.start();
 		System.out.println("Server started running...");
 		Client client = new Client();
@@ -111,7 +111,7 @@ public class dv {
 							e.printStackTrace();
 						}
 						}
-						}, time*1000, time*1000);
+						}, time*300, time*300);
 				}
 				break;
 			case "update": //update <server-id1> <server-id2> <link Cost>

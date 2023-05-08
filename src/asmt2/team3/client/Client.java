@@ -1,4 +1,4 @@
-package prakash.ram.client;
+package asmt2.team3.client;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.ClosedChannelException;
@@ -12,9 +12,9 @@ import java.util.Set;
 
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import prakash.ram.model.Message;
-import prakash.ram.model.Node;
-import prakash.ram.model.dv;
+import asmt2.team3.test1.Message;
+import asmt2.team3.test1.Node;
+import asmt2.team3.test1.dv;
 
 public class Client extends Thread
 {

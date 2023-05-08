@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="distance-vector">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/com.fasterxml.jackson.core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jackson-annotations-2.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/commons-lang3-3.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/com.fasterxml.jackson.databind.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,4 +1,4 @@
-package prakash.ram.model;
+package asmt2.team3.test1;
 
 import java.io.Serializable;
 import java.util.ArrayList;

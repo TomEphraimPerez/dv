@@ -1,4 +1,4 @@
-package prakash.ram.server;
+package asmt2.team3.server;
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.channels.SelectionKey;
@@ -6,7 +6,7 @@ import java.nio.channels.Selector;
 import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 
-import prakash.ram.model.dv;
+import asmt2.team3.test1.dv;
 
 public class Server extends Thread{
 	private int port = 0;
